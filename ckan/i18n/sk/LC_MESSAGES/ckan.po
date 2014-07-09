@@ -1601,11 +1601,11 @@ msgstr "Nie je možné nájsť tag \"%s\""
 
 #: ckan/logic/action/delete.py:498 ckan/logic/action/delete.py:502
 msgid "You must be logged in to unfollow something."
-msgstr ""
+msgstr "Musíte byť pripojený pre odber."
 
 #: ckan/logic/action/delete.py:513
 msgid "You are not following {0}."
-msgstr ""
+msgstr "Neodoberáte {0}."
 
 #: ckan/logic/action/get.py:1649
 msgid "Do not specify if using \"query\" parameter"
@@ -1629,7 +1629,7 @@ msgstr "Položka nebola nájdená."
 
 #: ckan/logic/action/update.py:208 ckan/logic/action/update.py:221
 msgid "Resource was not found."
-msgstr "Zdroj nebol nájdený. "
+msgstr "Zdroj nebol nájdený."
 
 #: ckan/logic/action/update.py:268 ckan/logic/action/update.py:1089
 msgid "Package was not found."
@@ -1651,12 +1651,12 @@ msgstr "TaskStatus nebol nájdený."
 
 #: ckan/logic/action/update.py:1093
 msgid "Organization was not found."
-msgstr ""
+msgstr "Organizácia nebola nájdená."
 
 #: ckan/logic/auth/create.py:19 ckan/logic/auth/create.py:37
 #, python-format
 msgid "User %s not authorized to create packages"
-msgstr "Používateľ %s nemá oprávnenie vytvárať balíky."
+msgstr "Používateľ %s nemá oprávnenie vytvárať balíky"
 
 #: ckan/logic/auth/create.py:23 ckan/logic/auth/update.py:39
 #, python-format
@@ -1666,15 +1666,15 @@ msgstr "Používateľ %s nemá oprávnenie upravovať tieto skupiny"
 #: ckan/logic/auth/create.py:30
 #, python-format
 msgid "User %s not authorized to add dataset to this organization"
-msgstr ""
+msgstr "Používateľ %s nemá oprávnenie na pridanie datasetu tejto organizácie"
 
 #: ckan/logic/auth/create.py:52
 msgid "You must be a sysadmin to create a featured related item"
-msgstr "Musíte byť sysadmin, aby ste vytvorili funkčné súvisiace položky."
+msgstr "Musíte byť systémový administrátor, aby ste mohli vytvoriť funkčné súvisiace položky"
 
 #: ckan/logic/auth/create.py:56
 msgid "You must be logged in to add a related item"
-msgstr "Ak chcete pridať súvisiacu položku, musíte byť prihlásený."
+msgstr "Ak chcete pridať súvisiacu položku, musíte byť prihlásený"
 
 #: ckan/logic/auth/create.py:80
 #, python-format
@@ -1689,19 +1689,19 @@ msgstr "Používateľ %s nemá oprávnenie vytvárať skupiny"
 #: ckan/logic/auth/create.py:101
 #, python-format
 msgid "User %s not authorized to create organizations"
-msgstr ""
+msgstr "Používateľ %s nemá oprávnenie na vytváranie organizácií"
 
 #: ckan/logic/auth/create.py:117
 msgid "User {user} not authorized to create users via the API"
-msgstr ""
+msgstr "Používateľ {user} nemá oprávnenie na vytvorenie používteľom prostredníctvom API"
 
 #: ckan/logic/auth/create.py:120
 msgid "Not authorized to create users"
-msgstr ""
+msgstr "Nemáte oprávnenie na vytvorenie používateľov"
 
 #: ckan/logic/auth/create.py:163
 msgid "Group was not found."
-msgstr "Skupina nebola nájdená"
+msgstr "Skupina nebola nájdená."
 
 #: ckan/logic/auth/create.py:183
 msgid "Valid API key needed to create a package"
@@ -1714,7 +1714,7 @@ msgstr "Na vytvorenie skupiny je potrebný API kľúč"
 #: ckan/logic/auth/create.py:211
 #, python-format
 msgid "User %s not authorized to add members"
-msgstr ""
+msgstr "Používateľ %s nemá oprávnenie na pridanie členov"
 
 #: ckan/logic/auth/create.py:235 ckan/logic/auth/update.py:107
 #, python-format
@@ -1734,7 +1734,7 @@ msgstr "Nenašiel sa žiadny balík pre tento zdroj, nie je možné skontrolova�
 #: ckan/logic/auth/delete.py:41
 #, python-format
 msgid "User %s not authorized to delete resource %s"
-msgstr ""
+msgstr "Používateľ %s nemá oprávnenie na odstránenie zdroja %s"
 
 #: ckan/logic/auth/delete.py:50 ckan/logic/auth/delete.py:64
 msgid "Only the owner can delete a related item"
@@ -1748,7 +1748,7 @@ msgstr "Používateľ %s nemá oprávnenie zmazať vzťah %s"
 #: ckan/logic/auth/delete.py:85
 #, python-format
 msgid "User %s not authorized to delete groups"
-msgstr ""
+msgstr "Používateľ %s nemá oprávnenie na odstránenie skupín"
 
 #: ckan/logic/auth/delete.py:89
 #, python-format
@@ -1758,22 +1758,22 @@ msgstr "Používateľ %s nemá oprávnenie zmazať skupinu %s"
 #: ckan/logic/auth/delete.py:106
 #, python-format
 msgid "User %s not authorized to delete organizations"
-msgstr ""
+msgstr "Používateľ %s nemá oprávnenie na odstránenie organizácií"
 
 #: ckan/logic/auth/delete.py:110
 #, python-format
 msgid "User %s not authorized to delete organization %s"
-msgstr ""
+msgstr "Používateľ %s nemá oprávnenie na odstránenie organizácie %s"
 
 #: ckan/logic/auth/delete.py:123
 #, python-format
 msgid "User %s not authorized to delete task_status"
-msgstr "Používateľ %s nemá oprávnenie odstrániť task_status"
+msgstr "Používateľ %s nemá oprávnenie na odstránenie task_status"
 
 #: ckan/logic/auth/delete.py:139
 #, python-format
 msgid "User %s not authorized to delete organization %s members"
-msgstr ""
+msgstr "Používateľ %s nemá oprávnenie na odstránenie členov organizácie %s"
 
 #: ckan/logic/auth/get.py:93
 #, python-format
@@ -1792,7 +1792,7 @@ msgstr "Používateľ %s nemá oprávnenie čítať zdroj %s"
 
 #: ckan/logic/auth/get.py:216
 msgid "You must be logged in to access your dashboard."
-msgstr ""
+msgstr "Musíte byť prihlásený na prístup k nástenke."
 
 #: ckan/logic/auth/update.py:33
 #, python-format
@@ -1802,7 +1802,7 @@ msgstr "Používateľ %s nemá oprávnenie upravovať balík %s"
 #: ckan/logic/auth/update.py:69
 #, python-format
 msgid "User %s not authorized to edit resource %s"
-msgstr ""
+msgstr "Používateľ %s nemá oprávnenie na úpravu zdroja %s"
 
 #: ckan/logic/auth/update.py:92
 #, python-format
@@ -1812,7 +1812,7 @@ msgstr "Používateľ %s nemá oprávnenie meniť stav balíka %s"
 #: ckan/logic/auth/update.py:120
 #, python-format
 msgid "User %s not authorized to edit organization %s"
-msgstr ""
+msgstr "Používateľ %s nemá oprávnenie na zmenu organizácie %s"
 
 #: ckan/logic/auth/update.py:131 ckan/logic/auth/update.py:137
 msgid "Only the owner can update a related item"
@@ -1820,7 +1820,7 @@ msgstr "Súvisiacu položku môže aktualizovať len vlasník"
 
 #: ckan/logic/auth/update.py:142
 msgid "You must be a sysadmin to change a related item's featured field."
-msgstr "Aby ste mohli zmeniť funkčné pole súvisiacej položky, musíte byť sysadmin."
+msgstr "Aby ste mohli zmeniť funkčné pole súvisiacej položky, musíte byť systémový administrátor."
 
 #: ckan/logic/auth/update.py:159
 #, python-format
@@ -1834,7 +1834,7 @@ msgstr "Používateľ %s nemá oprávnenie meniť práva skupiny %s"
 
 #: ckan/logic/auth/update.py:203
 msgid "Have to be logged in to edit user"
-msgstr ""
+msgstr "Musíte byť pripojený na úpravu používateľa"
 
 #: ckan/logic/auth/update.py:211
 #, python-format
@@ -1870,7 +1870,7 @@ msgstr "Nie je uvedená licencia"
 
 #: ckan/model/license.py:187
 msgid "Open Data Commons Public Domain Dedication and License (PDDL)"
-msgstr ""
+msgstr "Open Data Commons Public Domain Dedication and License (PDDL)"
 
 #: ckan/model/license.py:197
 msgid "Open Data Commons Open Database License (ODbL)"
@@ -1932,7 +1932,7 @@ msgstr "záleží od  %s"
 #: ckan/model/package_relationship.py:52
 #, python-format
 msgid "is a dependency of %s"
-msgstr "je závislosť %s"
+msgstr "je závislosť od %s"
 
 #: ckan/model/package_relationship.py:53
 #, python-format
@@ -1982,41 +1982,41 @@ msgstr "Prebieha načítavanie..."
 
 #: ckan/public/base/javascript/modules/api-info.js:20
 msgid "There is no API data to load for this resource"
-msgstr ""
+msgstr "Neexistuje dátové API na načítanie tohto zdroja"
 
 #: ckan/public/base/javascript/modules/api-info.js:21
 msgid "Failed to load data API information"
-msgstr ""
+msgstr "Zlyhalo načítanie informácie o dátovom API"
 
 #: ckan/public/base/javascript/modules/autocomplete.js:31
 msgid "No matches found"
-msgstr ""
+msgstr "Žiadna zhoda"
 
 #: ckan/public/base/javascript/modules/autocomplete.js:32
 msgid "Start typing…"
-msgstr ""
+msgstr "Začnite písať..."
 
 #: ckan/public/base/javascript/modules/autocomplete.js:34
 msgid "Input is too short, must be at least one character"
-msgstr ""
+msgstr "Vstup je príliš krátky, zadajte aspoň jeden znak"
 
 #: ckan/public/base/javascript/modules/basic-form.js:4
 msgid "There are unsaved modifications to this form"
-msgstr ""
+msgstr "Neuložili ste vykonané zmeny vo formulári"
 
 #: ckan/public/base/javascript/modules/confirm-action.js:7
 msgid "Please Confirm Action"
-msgstr ""
+msgstr "Prosím, potvrďte túto akciu"
 
 #: ckan/public/base/javascript/modules/confirm-action.js:8
 msgid "Are you sure you want to perform this action?"
-msgstr ""
+msgstr "Chcete vykonať túto akciu?"
 
 #: ckan/public/base/javascript/modules/confirm-action.js:9
 #: ckan/templates/user/new_user_form.html:9
 #: ckan/templates/user/perform_reset.html:20
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdiť"
 
 #: ckan/public/base/javascript/modules/confirm-action.js:10
 #: ckan/public/base/javascript/modules/resource-reorder.js:11
@@ -2061,14 +2061,14 @@ msgstr "Nahrávanie"
 
 #: ckan/public/base/javascript/modules/image-upload.js:16
 msgid "Link"
-msgstr ""
+msgstr "Odkaz"
 
 #: ckan/public/base/javascript/modules/image-upload.js:17
 #: ckan/templates/group/snippets/group_item.html:41
 #: ckan/templates/macros/form.html:234
 #: ckan/templates/snippets/search_form.html:61
 msgid "Remove"
-msgstr ""
+msgstr "Zmazať"
 
 #: ckan/public/base/javascript/modules/image-upload.js:18
 #: ckan/templates/macros/form.html:411
@@ -2078,35 +2078,35 @@ msgstr "Obrázok"
 
 #: ckan/public/base/javascript/modules/image-upload.js:19
 msgid "Upload a file on your computer"
-msgstr ""
+msgstr "Odošlite súbor na váš počítať"
 
 #: ckan/public/base/javascript/modules/image-upload.js:20
 msgid "Link to a URL on the internet (you can also link to an API)"
-msgstr ""
+msgstr "Odkaz URL na internete (môžete prepojiť s API)"
 
 #: ckan/public/base/javascript/modules/image-upload.js:21
 msgid "Reset this"
-msgstr ""
+msgstr "Resetovať"
 
 #: ckan/public/base/javascript/modules/related-item.js:25
 msgid "show more"
-msgstr ""
+msgstr "ukázať viac"
 
 #: ckan/public/base/javascript/modules/related-item.js:26
 msgid "show less"
-msgstr ""
+msgstr "ukázať menej"
 
 #: ckan/public/base/javascript/modules/resource-reorder.js:8
 msgid "Reorder resources"
-msgstr ""
+msgstr "Preusporiadať zdroje"
 
 #: ckan/public/base/javascript/modules/resource-reorder.js:9
 msgid "Save order"
-msgstr ""
+msgstr "Uložiť výber"
 
 #: ckan/public/base/javascript/modules/resource-reorder.js:10
 msgid "Saving..."
-msgstr ""
+msgstr "Ukladám..."
 
 #: ckan/public/base/javascript/modules/resource-upload-field.js:25
 #: ckan/templates_legacy/package/new_package_form.html:149
@@ -2115,29 +2115,29 @@ msgstr "Nahrať súbor"
 
 #: ckan/public/base/javascript/modules/resource-upload-field.js:26
 msgid "An Error Occurred"
-msgstr ""
+msgstr "Vyskytla sa chyba"
 
 #: ckan/public/base/javascript/modules/resource-upload-field.js:27
 msgid "Resource uploaded"
-msgstr ""
+msgstr "Zdroj nahraný"
 
 #: ckan/public/base/javascript/modules/resource-upload-field.js:28
 msgid "Unable to upload file"
-msgstr ""
+msgstr "Nie je možné nahrať súbor"
 
 #: ckan/public/base/javascript/modules/resource-upload-field.js:29
 msgid "Unable to authenticate upload"
-msgstr ""
+msgstr "Nie je možné autentifikovať nahraté súbory"
 
 #: ckan/public/base/javascript/modules/resource-upload-field.js:30
 msgid "Unable to get data for uploaded file"
-msgstr ""
+msgstr "Nie je možné pristúpiť k nahranému súboru"
 
 #: ckan/public/base/javascript/modules/resource-upload-field.js:31
 msgid ""
 "You are uploading a file. Are you sure you want to navigate away and stop "
 "this upload?"
-msgstr ""
+msgstr "Nahrávate súbor. Chcete odísť preč a prerušiť nahrávanie?"
 
 #: ckan/public/base/javascript/modules/slug-preview.js:35
 #: ckan/templates/group/snippets/group_form.html:18
@@ -2168,24 +2168,24 @@ msgstr "Upraviť"
 
 #: ckan/public/base/javascript/modules/table-toggle-more.js:9
 msgid "Show more"
-msgstr ""
+msgstr "Ukázať viac"
 
 #: ckan/public/base/javascript/modules/table-toggle-more.js:10
 msgid "Hide"
-msgstr ""
+msgstr "Skryť"
 
 #: ckan/templates/error_document_template.html:3
 #, python-format
 msgid "Error %(error_code)s"
-msgstr ""
+msgstr "Chyba %(error_code)s"
 
 #: ckan/templates/footer.html:8
 msgid "About {0}"
-msgstr ""
+msgstr "Informácie o {0}"
 
 #: ckan/templates/footer.html:14
 msgid "CKAN API"
-msgstr ""
+msgstr "CKAN API"
 
 #: ckan/templates/footer.html:15 ckan/templates_legacy/layout_base.html:207
 msgid "Open Knowledge Foundation"
@@ -2196,26 +2196,28 @@ msgid ""
 "<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" "
 "href=\"http://ckan.org\">CKAN</a>"
 msgstr ""
+"<strong>Beží na</strong> <a class=\"hide-text ckan-footer-logo\" "
+"href=\"http://ckan.org\">CKAN</a>"
 
 #: ckan/templates/header.html:12
 msgid "Sysadmin settings"
-msgstr ""
+msgstr "Nastavenia systémového administrátora"
 
 #: ckan/templates/header.html:18
 msgid "View profile"
-msgstr ""
+msgstr "Ukázať profil"
 
 #: ckan/templates/header.html:25
 #, python-format
 msgid "Dashboard (%(num)d new item)"
 msgid_plural "Dashboard (%(num)d new items)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Zobraziť (%(num)d novú položku)"
+msgstr[1] "Zobraziť (%(num)d nové položky)"
+msgstr[2] "Zobraziť (%(num)d nové položky)"
 
 #: ckan/templates/header.html:33 ckan/templates/user/dashboard.html:16
 msgid "Edit settings"
-msgstr ""
+msgstr "Úprava nastavení"
 
 #: ckan/templates/header.html:40 ckan/templates_legacy/user/layout.html:14
 msgid "Log out"
@@ -2223,7 +2225,7 @@ msgstr "Odhlásiť sa"
 
 #: ckan/templates/header.html:52 ckan/templates/user/logout_first.html:15
 msgid "Log in"
-msgstr ""
+msgstr "Prihlásiť sa"
 
 #: ckan/templates/header.html:54 ckan/templates/user/new.html:3
 #: ckan/templates_legacy/layout_base.html:60
@@ -2257,54 +2259,54 @@ msgstr "Datasety"
 
 #: ckan/templates/header.html:107
 msgid "Search Datasets"
-msgstr ""
+msgstr "Vyhľadať datasety"
 
 #: ckan/templates/header.html:108 ckan/templates/group/read.html:14
 #: ckan/templates/organization/read.html:18
 #: ckan/templates/snippets/search_form.html:3
 msgid "Search datasets..."
-msgstr ""
+msgstr "Vyhľadať datasety..."
 
 #: ckan/templates/activity_streams/activity_stream_items.html:7
 msgid "Load less"
-msgstr ""
+msgstr "Načítať menej"
 
 #: ckan/templates/activity_streams/activity_stream_items.html:15
 msgid "Load more"
-msgstr ""
+msgstr "Načítať viac"
 
 #: ckan/templates/activity_streams/activity_stream_items.html:19
 msgid "No activities are within this activity stream"
-msgstr ""
+msgstr "Žiadne udalosti nie sú dostupné"
 
 #: ckan/templates/admin/base.html:3
 msgid "Administration"
-msgstr ""
+msgstr "Administrácia"
 
 #: ckan/templates/admin/base.html:8
 msgid "Sysadmins"
-msgstr ""
+msgstr "Systémoví administrátori"
 
 #: ckan/templates/admin/base.html:9
 msgid "Config"
-msgstr ""
+msgstr "Konfigurácia"
 
 #: ckan/templates/admin/config.html:11
 #: ckan/templates/admin/confirm_reset.html:7
 msgid "Are you sure you want to reset the config?"
-msgstr ""
+msgstr "Chcete obnoviť konfiguráciu?"
 
 #: ckan/templates/admin/config.html:12
 msgid "Reset"
-msgstr ""
+msgstr "Obnoviť"
 
 #: ckan/templates/admin/config.html:13
 msgid "Update Config"
-msgstr ""
+msgstr "Upraviť konfiguráciu"
 
 #: ckan/templates/admin/config.html:22
 msgid "CKAN config options"
-msgstr ""
+msgstr "CKAN konfigurácia"
 
 #: ckan/templates/admin/config.html:29
 #, python-format
@@ -2325,15 +2327,22 @@ msgid ""
 "<p><strong>Homepage:</strong> This is for choosing a predefined layout for "
 "the modules that appear on your homepage.</p> "
 msgstr ""
+" <p><strong>Názov stránky:</strong> Názov CKAN objektu sa vyskytuje "
+"na viacerých miestach prostredníctvom CKAN</p> <p><strong>Štýl:</strong> "
+"Zvoľte niektorú z jednoduchších kombinácií farebných schém pre vytvorenie jednoduchej témy.</p> <p><strong>Logo stránky:</strong> Toto"
+" logo vyskytujúce sa v hlavičkých každej CKAN šablóny.</p> <p><strong>Informácie o:</strong> "
+"Tento text sa zobrazí v CKAN objektoch <a href=\"%(about_url)s\">o stránke</a>.</p> <p><strong>Intro "
+"Text:</strong> Tento text sa objaví na <a href=\"%(home_url)s\">domovskej stránke</a> tento CKAN objekt pre privítání návštěvníkov.</p> <p><strong>Vlastné alebo upravené CSS:</strong> Toto je blok pre CSS, ktorý sa objaví v <code>&lt;head&gt;</code> tagu každej stránky. Ak si želáte upraviť šablóny viac, prečítajte si <a href=\"%(docs_url)s\" target=\"_blank\">dokumentáciu</a>.</p> <p><strong>Hlavná stránka:</strong> Touto voľbou sa určí predpripravené rozloženie modulu, ktoré se zobrazuje na hlavnej stránke.</p>"
+
 
 #: ckan/templates/admin/confirm_reset.html:3
 #: ckan/templates/admin/confirm_reset.html:10
 msgid "Confirm Reset"
-msgstr ""
+msgstr "Potvrďte reset"
 
 #: ckan/templates/admin/index.html:15
 msgid "What are sysadmins?"
-msgstr ""
+msgstr "Kto sú systémoví administrátori"
 
 #: ckan/templates/admin/index.html:19
 msgid ""
@@ -2341,60 +2350,64 @@ msgid ""
 "can only add CKAN sysadmins via the <code>sysadmin</code> paster "
 "command.</p> "
 msgstr ""
+" <p>Systémový administrátor má plnú kontrolu nad CKAN objektom. Pridanie CKAN administrátora môžete vykonať iba "
+"prostredníctvom príkazu <code>sysadmin</code>.</p> "
 
 #: ckan/templates/admin/index.html:24
 msgid "Read the documentation"
-msgstr ""
+msgstr "Prečítajte si dokumentáciu"
 
 #: ckan/templates/ajax_snippets/api_info.html:19
 msgid "CKAN Data API"
-msgstr ""
+msgstr "CKAN dátové API"
 
 #: ckan/templates/ajax_snippets/api_info.html:23
 msgid "Access resource data via a web API with powerful query support"
-msgstr ""
+msgstr "Prístup k zdrojom dát prostredníctvom webového API s podporou dopytovania"
 
 #: ckan/templates/ajax_snippets/api_info.html:24
 msgid ""
 " Further information in the <a       "
 "href=\"http://docs.ckan.org/en/latest/datastore.html\" "
 "target=\"_blank\">main CKAN Data API and DataStore documentation</a>.</p> "
-msgstr ""
+msgstr "Viac informácií na <a       "
+"href=\"http://docs.ckan.org/en/latest/datastore.html\" "
+"target=\"_blank\">CKAN dátové API a DataStore dokumentácia</a>.</p> "
 
 #: ckan/templates/ajax_snippets/api_info.html:33
 msgid "Endpoints"
-msgstr ""
+msgstr "Koncové body"
 
 #: ckan/templates/ajax_snippets/api_info.html:37
 msgid ""
 "The Data API can be accessed via the following actions of the CKAN action "
 "API."
-msgstr ""
+msgstr "Prístup k dátovému API prostredníctvom nasledujúcich CKAN akcií API"
 
 #: ckan/templates/ajax_snippets/api_info.html:42
 #: ckan/templates/related/edit_form.html:7
 msgid "Create"
-msgstr ""
+msgstr "Vytvoriť"
 
 #: ckan/templates/ajax_snippets/api_info.html:46
 msgid "Update / Insert"
-msgstr ""
+msgstr "Aktualizovať / Vložiť"
 
 #: ckan/templates/ajax_snippets/api_info.html:50
 msgid "Query"
-msgstr ""
+msgstr "Dopyt"
 
 #: ckan/templates/ajax_snippets/api_info.html:54
 msgid "Query (via SQL)"
-msgstr ""
+msgstr "Dopyt (prostredníctvom SQL)"
 
 #: ckan/templates/ajax_snippets/api_info.html:66
 msgid "Querying"
-msgstr ""
+msgstr "Dopytovanie"
 
 #: ckan/templates/ajax_snippets/api_info.html:70
 msgid "Query example (first 5 results)"
-msgstr ""
+msgstr "Príklad dopytu (prvých 5 výsledkov)"
 
 #: ckan/templates/ajax_snippets/api_info.html:75
 msgid "Query example (results containing 'jones')"
